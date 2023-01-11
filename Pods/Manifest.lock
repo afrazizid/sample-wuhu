@@ -1,0 +1,199 @@
+PODS:
+  - AAFragmentManager (2.1)
+  - ACPAnalytics (2.5.0):
+    - ACPAnalytics/xcframeworks (= 2.5.0)
+    - ACPCore (>= 2.9.0)
+  - ACPAnalytics/xcframeworks (2.5.0):
+    - ACPCore (>= 2.9.0)
+  - ACPCore (2.9.1):
+    - ACPCore/main (= 2.9.1)
+  - ACPCore/main (2.9.1)
+  - ACPTarget (2.2.0):
+    - ACPCore (>= 2.9.0)
+    - ACPTarget/xcframeworks (= 2.2.0)
+  - ACPTarget/xcframeworks (2.2.0):
+    - ACPCore (>= 2.9.0)
+  - ACPUserProfile (2.2.0):
+    - ACPCore (>= 2.9.0)
+    - ACPUserProfile/xcframeworks (= 2.2.0)
+  - ACPUserProfile/xcframeworks (2.2.0):
+    - ACPCore (>= 2.9.0)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AKSideMenu (1.4.5)
+  - Alamofire (4.9.1)
+  - BlinkReceipt (1.16.0):
+    - AFNetworking/NSURLSession (~> 4.0)
+    - CHCSVParser (~> 2.1)
+    - GPUImage (~> 0.1)
+    - libextobjc (~> 0.4)
+    - MBProgressHUD (~> 1.0)
+    - SimpleKeychain (~> 0.7)
+  - CHCSVParser (2.1.0)
+  - Cosmos (23.0.0)
+  - DropDown (2.3.13)
+  - FSCalendar (2.8.2)
+  - FSPagerView (0.8.3)
+  - GPUImage (0.1.7)
+  - IQKeyboardManager (6.5.6)
+  - KKPinCodeTextField (1.0.0)
+  - Koyomi (1.2.7)
+  - KWVerificationCodeView (0.4.0)
+  - libextobjc (0.6):
+    - libextobjc/EXTADT (= 0.6)
+    - libextobjc/EXTConcreteProtocol (= 0.6)
+    - libextobjc/EXTKeyPathCoding (= 0.6)
+    - libextobjc/EXTNil (= 0.6)
+    - libextobjc/EXTSafeCategory (= 0.6)
+    - libextobjc/EXTScope (= 0.6)
+    - libextobjc/EXTSelectorChecking (= 0.6)
+    - libextobjc/EXTSynthesize (= 0.6)
+    - "libextobjc/NSInvocation+EXT (= 0.6)"
+    - "libextobjc/NSMethodSignature+EXT (= 0.6)"
+    - libextobjc/RuntimeExtensions (= 0.6)
+    - libextobjc/UmbrellaHeader (= 0.6)
+  - libextobjc/EXTADT (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.6):
+    - libextobjc/RuntimeExtensions
+  - "libextobjc/NSInvocation+EXT (0.6)":
+    - libextobjc/RuntimeExtensions
+  - "libextobjc/NSMethodSignature+EXT (0.6)":
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.6)
+  - libextobjc/UmbrellaHeader (0.6)
+  - LinearProgressView (2.0.1)
+  - LUExpandableTableView (5.0.0)
+  - MatomoTracker (7.4.1):
+    - MatomoTracker/Core (= 7.4.1)
+  - MatomoTracker/Core (7.4.1)
+  - MBProgressHUD (1.2.0)
+  - NewRelicAgent (7.2.1)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+  - SimpleKeychain (0.12.2)
+  - SwiftMessages (9.0.0):
+    - SwiftMessages/App (= 9.0.0)
+  - SwiftMessages/App (9.0.0)
+  - SwiftyJSON (5.0.0)
+  - TrustKit (1.6.5)
+
+DEPENDENCIES:
+  - AAFragmentManager
+  - ACPAnalytics (~> 2.0)
+  - ACPCore (~> 2.0)
+  - ACPTarget (~> 2.1)
+  - ACPUserProfile (~> 2.0)
+  - AKSideMenu
+  - Alamofire (~> 4.9.0)
+  - BlinkReceipt (~> 1.16.0)
+  - Cosmos
+  - DropDown
+  - FSCalendar
+  - FSPagerView
+  - IQKeyboardManager
+  - KKPinCodeTextField
+  - Koyomi
+  - KWVerificationCodeView
+  - LinearProgressView (~> 2.0)
+  - LUExpandableTableView
+  - MatomoTracker (~> 7.4)
+  - NewRelicAgent
+  - NVActivityIndicatorView (~> 4.8.0)
+  - SDWebImage
+  - SwiftMessages
+  - SwiftyJSON
+  - TrustKit
+
+SPEC REPOS:
+  https://github.com/BlinkReceipt/PodSpecRepo.git:
+    - BlinkReceipt
+  https://github.com/CocoaPods/Specs.git:
+    - AAFragmentManager
+    - ACPAnalytics
+    - ACPCore
+    - ACPTarget
+    - ACPUserProfile
+    - AFNetworking
+    - AKSideMenu
+    - Alamofire
+    - CHCSVParser
+    - Cosmos
+    - DropDown
+    - FSCalendar
+    - FSPagerView
+    - GPUImage
+    - IQKeyboardManager
+    - KKPinCodeTextField
+    - Koyomi
+    - KWVerificationCodeView
+    - libextobjc
+    - LinearProgressView
+    - LUExpandableTableView
+    - MatomoTracker
+    - MBProgressHUD
+    - NewRelicAgent
+    - NVActivityIndicatorView
+    - SDWebImage
+    - SimpleKeychain
+    - SwiftMessages
+    - SwiftyJSON
+    - TrustKit
+
+SPEC CHECKSUMS:
+  AAFragmentManager: 58b87e0ada80ec1fb401eb758d889a8c764837a4
+  ACPAnalytics: 7067f3eb1f98d5c1a0028d632195fe6f3355b237
+  ACPCore: b404834033f6429e4acf66010b7d043c8a626827
+  ACPTarget: 66d5a8137f8e5afa1ce462d4678129456f126955
+  ACPUserProfile: 34bd51d00a2ae1add3d04eab0a313b73cb01b904
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AKSideMenu: 2880c44ee04a68f40be783c5cb997b2e0ee22401
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BlinkReceipt: 1380a03ced70d47c8dfd4c78bdaed3e7833f02f3
+  CHCSVParser: 3bcc7bdb72111a31222e95d57eacceefe4e537e8
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  KKPinCodeTextField: 63a1fb841fd6a412cf664ef64dc065fc6767bd3c
+  Koyomi: f03615b8d2bb5a5a4752c6404a9794ed7ef7b327
+  KWVerificationCodeView: 92cca6ad028546d3232fa75cda3a40d00109a1a2
+  libextobjc: aed8b7d2b07f511c1a7ecaacb33ea03e327c69b7
+  LinearProgressView: 353d4d45dc599b83cc4b43f14e6c0336aa6f3834
+  LUExpandableTableView: 710ed7e7d55d0b58d61c95561bd9ecbf39692010
+  MatomoTracker: 24a846c9d3aa76933183fe9d47fd62c9efa863fb
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  NewRelicAgent: 5bdff9c0e3de85eb95c54ffc2262f3e23e3d71ba
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  SimpleKeychain: d6a74781e20ebac8cd89deebf593587913aeed07
+  SwiftMessages: 55274ca3a239062398603008ed81924cfd1fe798
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TrustKit: 073855e3adecd317417bda4ac9e9ac54a2e3b9f2
+
+PODFILE CHECKSUM: 58d99594c564417a8aad0f43c6000c983c384462
+
+COCOAPODS: 1.10.1

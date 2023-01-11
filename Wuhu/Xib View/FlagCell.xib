@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham-Book.ttf">
+            <string>Gotham-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="FlagCell" customClass="FlagCell" customModule="WATERCO" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="45"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pakFlage" translatesAutoresizingMaskIntoConstraints="NO" id="wwI-k5-kbU">
+                    <rect key="frame" x="8" y="13.5" width="28" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="28" id="Px4-9M-oMJ"/>
+                        <constraint firstAttribute="height" constant="18" id="Qet-2U-JHs"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+92" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIB-Xt-ckX">
+                    <rect key="frame" x="46" y="14.5" width="30" height="16"/>
+                    <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="16"/>
+                    <color key="textColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="VIB-Xt-ckX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="HqK-rb-2e5"/>
+                <constraint firstItem="VIB-Xt-ckX" firstAttribute="leading" secondItem="wwI-k5-kbU" secondAttribute="trailing" constant="10" id="NQS-gs-R1I"/>
+                <constraint firstItem="wwI-k5-kbU" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="oNR-Ox-93x"/>
+                <constraint firstItem="wwI-k5-kbU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="xPu-SG-9dw"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="logoImageView" destination="wwI-k5-kbU" id="DFj-ka-K8K"/>
+                <outlet property="optionLabel" destination="VIB-Xt-ckX" id="u7G-KQ-eiI"/>
+            </connections>
+            <point key="canvasLocation" x="462.39999999999998" y="411.544227886057"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="pakFlage" width="43.5" height="25.5"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_Wuhu {
+  umbrella header "Pods-Wuhu-umbrella.h"
+
+  export *
+  module * { export * }
+}
